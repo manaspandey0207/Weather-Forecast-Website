@@ -1,0 +1,40 @@
+.Page {
+
+    background-color: black;
+    border: 5px ;
+    border-radius: 10px;
+    
+}
+
+.Page_Div {
+
+    border : 10px aqua;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+.txt {
+
+    color: aqua;
+
+}
+
+.Heading{
+
+    color: aqua;
+    text-align: center;
+
+}
+
+.input {
+
+    cursor: pointer;
+
+}
+
+.Button:hover {
+
+    background: rgb(0, 195, 195);
+}
