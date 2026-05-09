@@ -11,16 +11,36 @@
 
     <div class = "Page_Div">
 
-        <h1 class = "Heading"><u>Weather Forecast</u></h1>
+        <div class = "HeadingDiv">
+
+            
+
+            <h1 class = "Heading"><img src="Logo.jpg" class = "Img"> Weather Forecast</h1>
+
+        </div>
 
         <hr>
 
-         <p class = "txt">This program allows you to view weather forecast on different cities.</p>
+        <div class = "TextDiv">
 
-        <input type="text" placeholder="Enter City" id = "City" class = "input">
+         <p class = "txt">This program allows you to view weather forecast on different cities around the world. It Shows the Following :- Temperature, Humidity, Wind and Weather.
+            
+         </p>
+        
+        </div>
+
+        <div class = "InputDivCentre">
+        <div class = "InputDiv">
+        <input class = "Input" type="text" placeholder="Enter City" id = "City" class = "input">
 
         <button onclick = "Fetch_Data()" class = "Button">Forecast</button>
+        </div>
+        </div>
 
+        <div class = "CentreOutput">
+        <div class = "Output">
+
+        <p class = "txt">Result Will be Displayed here - </p>
         <p class = "txt" id = "Name_of_City"></p>
 
         <p class = "txt" id = "Temp"></p>
@@ -30,6 +50,8 @@
         <p class = "txt" id = "Humidity"></p>
 
         <p class =  "txt" id = "Wind"></p>
+        </div>
+        </div>
 
         <script src = "script.JS"></script>
 
