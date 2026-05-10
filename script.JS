@@ -27,9 +27,9 @@ async function Fetch_Data() {
 
        document.getElementById("Weather").innerHTML = "☁️weather - " + Data.weather[0].main;
 
-       document.getElementById("Humidity").innerHTML = "💧Humidity - " + Data.main.Humidity;
+       document.getElementById("Humidity").innerHTML = "💧Humidity - " + Data.main.humidity;
 
-       document.getElementById("Wind").innerHTML = "🌬️Wind - " + Data.main.wind_speed;
+       document.getElementById("Wind").innerHTML = "🌬️Wind - " + Data.wind.speed;
 
        
 

@@ -104,7 +104,9 @@
 .Output{
 
     display: flex;
+    flex-direction: column;
     padding: 1vw;
+    
     background-color: #001D39;
     margin: 1vw;
     border-radius: 1vw;
