@@ -127,6 +127,12 @@ async function Fetch_Data() {
 
        let Data = await response.json();
 
+       const Weather_Image = Data.weather[0].icon;
+
+      const Image = document.getElementById("WeatherImage");
+
+      Image.src = `https://openweathermap.org/img/wn/${Weather_Image}@2x.png`;
+
        document.getElementById("Name_of_City").innerHTML = "📍" + Data.name
 
        document.getElementById("Temp").innerHTML = "🌡️Temperature ;- " + Data.main.temp + "C"

@@ -128,5 +128,13 @@
 select.Input{
 
     cursor: pointer;
-    
+
+}
+
+.WeatherImage {
+
+    border-radius: 2vw;
+    height: 12vw;
+    width: 12vw;
+
 }
